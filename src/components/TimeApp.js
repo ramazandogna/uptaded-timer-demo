@@ -73,7 +73,7 @@ const TimeApp = () => {
                      </p>
                   </div>
                   <div>
-                     <p className=" text-6xl">{time}</p>
+                     <p className=" italic text-6xl">{time}</p>
                   </div>
                   <div>
                      <p className="text-xl flex justify-end">{date}</p>
