@@ -68,17 +68,22 @@ const TimeApp = () => {
             <div className=" flex justify-center items-center text-indigo-200 bg-fuchsia-800 w-96 h-96 mt-20 mx-auto rounded-full">
                <div>
                   <div>
-                     <p>{weekDays[day]}</p>
+                     <p className=" text-xl uppercase text-center ">
+                        {weekDays[day]}
+                     </p>
                   </div>
                   <div>
                      <p className=" text-6xl">{time}</p>
                   </div>
                   <div>
-                     <p>{date}</p>
+                     <p className="text-xl flex justify-end">{date}</p>
                   </div>
                </div>
             </div>
          </section>
+         <div className=" fixed bottom-0 right-2 italic underline uppercase">
+            Ramazan Doğan
+         </div>
       </React.Fragment>
    );
 };
