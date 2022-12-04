@@ -1,11 +1,13 @@
 import './App.css';
 
+import React from 'react';
+import TimeApp from './components/TimeApp';
+
 function App() {
    return (
-      <div>
-         <h1>its 👉🏻 "Uptaded Timer Demo"</h1>
-         <h2>Hello Mr. 🎅🏻 and Mrs. 🤶🏻</h2>
-      </div>
+      <React.Fragment>
+         <TimeApp />
+      </React.Fragment>
    );
 }
 
